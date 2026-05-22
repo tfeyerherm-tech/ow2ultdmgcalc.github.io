@@ -147,3 +147,48 @@ function dominaUlt(){
 function hazardsUlt(){
     calcUlt(90)
 }
+function junkerQueenUlt(){
+    if (isClicked3 === true){
+        calcUlt(30)
+    }else{
+        calcUlt(60)
+    }
+}
+function orisaUlt(){
+    if (isClicked3 === true){
+        calcUlt(225/2)
+    }else{
+        calcUlt(225)
+    }
+}
+function reinsEarthshatter(){
+    if (isClicked3 === true){
+        calcUlt(50)
+    }else{
+        calcUlt(100)
+    }
+}
+function hogsWholeHog(){
+    calcUlt(56)
+}
+function sigmasUlt(){
+    if (isClicked3 === true){
+        calcUlt(25)
+    }else{
+        calcUlt(50)
+    }
+}
+function winstonsPrimalRage(){
+    if (isClicked3 === true){
+        calcUlt(67.5/2)
+    }else{
+        calcUlt(67.5)
+    }
+}
+function moriasUlt(){
+    if (isClicked3 === true){
+        calcUlt(70/2)
+    }else{
+        calcUlt(70)
+    }
+}

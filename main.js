@@ -22,14 +22,52 @@ function anaNano(){
     console.log(isClicked2)
 }
 
-function downloadFile(url, fileName) {
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = fileName;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+function junkerQueenUlt(){
+    if (isClicked3 === true){
+        calcUlt(30)
+    }else{
+        calcUlt(60)
+    }
 }
+function orisaUlt(){
+    if (isClicked3 === true){
+        calcUlt(225/2)
+    }else{
+        calcUlt(225)
+    }
+}
+function reinsEarthshatter(){
+    if (isClicked3 === true){
+        calcUlt(50)
+    }else{
+        calcUlt(100)
+    }
+}
+function hogsWholeHog(){
+    calcUlt(56)
+}
+function sigmasUlt(){
+    if (isClicked3 === true){
+        calcUlt(25)
+    }else{
+        calcUlt(50)
+    }
+}
+function winstonsPrimalRage(){
+    if (isClicked3 === true){
+        calcUlt(67.5/2)
+    }else{
+        calcUlt(67.5)
+    }
+}
+function moriasUlt(){
+    if (isClicked3 === true){
+        calcUlt(70/2)
+    }else{
+        calcUlt(70)
+    }
+}
+
 function thisBetterWork(){
     downloadFile("https://www.dropbox.com/scl/fi/f1a4yr7gxuebs6xzv6g4u/IMG_1828.jpeg?rlkey=9r8lpi51tcn5ls2ooafrr7hrs&e=1&st=pi9kk90o&dl=1", "haha")
     
@@ -146,49 +184,4 @@ function dominaUlt(){
 }
 function hazardsUlt(){
     calcUlt(90)
-}
-function junkerQueenUlt(){
-    if (isClicked3 === true){
-        calcUlt(30)
-    }else{
-        calcUlt(60)
-    }
-}
-function orisaUlt(){
-    if (isClicked3 === true){
-        calcUlt(225/2)
-    }else{
-        calcUlt(225)
-    }
-}
-function reinsEarthshatter(){
-    if (isClicked3 === true){
-        calcUlt(50)
-    }else{
-        calcUlt(100)
-    }
-}
-function hogsWholeHog(){
-    calcUlt(56)
-}
-function sigmasUlt(){
-    if (isClicked3 === true){
-        calcUlt(25)
-    }else{
-        calcUlt(50)
-    }
-}
-function winstonsPrimalRage(){
-    if (isClicked3 === true){
-        calcUlt(67.5/2)
-    }else{
-        calcUlt(67.5)
-    }
-}
-function moriasUlt(){
-    if (isClicked3 === true){
-        calcUlt(70/2)
-    }else{
-        calcUlt(70)
-    }
 }

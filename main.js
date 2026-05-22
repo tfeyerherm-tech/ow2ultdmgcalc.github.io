@@ -8,6 +8,7 @@ function mercyBlueBeam(){
     isClicked = true;
     console.log(isClicked)
 }
+
 function bapsAmplification(){
     isClicked3 = true
     console.log(isClicked3)
@@ -22,6 +23,13 @@ function anaNano(){
     console.log(isClicked2)
 }
 
+function moriasUlt(){
+    if (isClicked3 === true){
+        calcUlt(70/2)
+    }else{
+        calcUlt(70)
+    }
+}
 function junkerQueenUlt(){
     if (isClicked3 === true){
         calcUlt(30)
@@ -58,13 +66,6 @@ function winstonsPrimalRage(){
         calcUlt(67.5/2)
     }else{
         calcUlt(67.5)
-    }
-}
-function moriasUlt(){
-    if (isClicked3 === true){
-        calcUlt(70/2)
-    }else{
-        calcUlt(70)
     }
 }
 
